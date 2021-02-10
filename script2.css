@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+html{
+    height:100%;
+}
+
+body{
+	height:100%;
+    margin: 0px;
+	padding: 0px;
+	background-color:#f0f0f0;
+}
+
+
+#warning-message { display: none; }
+@media only screen and (orientation:portrait){
+    #container { display:none; }
+    #warning-message { display:block; }
+}
+@media only screen and (orientation:landscape){
+    #warning-message { display:none; }
+}
+
+/*
+#container { display:block; }
+@media only screen and (orientation:portrait){
+  #container {  
+    height: 100vw;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (orientation:landscape){
+  #container {  
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+  }
+}
+*/
+
+#container{
+	//height:100%;
+	//width:100%;
+	//position:relative;
+}
+
+#background{
+	//margin:auto;
+	//height: 750px;
+    //width: 100%;
+	//position:relative;
+	//background-image:url("background.jpg");
+	//background-size:100%;
+	//background-repeat:no-repeat;
+	//z-index: -5;
+	
+	background: url(https://github.com/samarthanand12/varuni_images/blob/main/images/background2.jpg?raw=true);
+    background-size: 100%;
+    width: 1400px;
+	height: 775px;
+    position: relative;
+	background-repeat:no-repeat;
+    z-index: -5;
+	background-size: cover;
+}
+
+#background-text{
+	color:#DAA520;
+	position:absolute;
+	top:520px;
+	left:540px;
+	font-size:50px;
+	font-weight:900;
+	font-family: 'Pangolin', cursive;
+	-webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+}
+
+#click{
+	height:250px;
+	width:250px;
+	position:absolute;
+	top:10px;
+	z-index:5;
+}
