@@ -1,2 +1,2 @@
-# varuni.github.io
+# samarthanand12.github.io
 Varuni Birthday
